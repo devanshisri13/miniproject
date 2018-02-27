@@ -15,6 +15,21 @@
             <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signup">signUp</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signin">signIn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/signout">SignOut</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/view">View Messages</a>
+            </li>
+
+
+
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>

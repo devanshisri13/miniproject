@@ -26,3 +26,21 @@ Route::post('/contact', function () {
     echo "Email:: " . $data['email'] , '<br>';
     echo "Body:: " . $data['body'];
 });
+
+Route::get('/signin', function () {
+    return view('pages.signin');
+});
+Route::get('/signout', function () {
+    return view('pages.signout');
+});
+
+Route::get('/signup', function () {
+    return view('pages.signup');
+});
+
+Route::get('/view', function () {
+    return view('pages.view');
+});
+Route::get('/bootstrap', function () {
+    return view('pages.bootstrap');
+});
